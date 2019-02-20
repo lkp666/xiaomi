@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #888;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+clearfix:after {
+    display: block;
+    content: ' ';
+    overflow: hidden;
+    height: 0;
+    clear: both;
+}
+
+input {
+    outline: none;
+}
+
+
+/*页面开始*/
+
+#header_wrapper {
+    width: 100%;
+    height: 57px;
+    background: white;
+}
+
+.header {
+    width: 1200px;
+    height: 57px;
+    background: white;
+    border-bottom: 1px solid #919191;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#main_p_wrapper {
+    width: 100%;
+    height: 524px;
+    background: white;
+}
+
+.main_p {
+    width: 1200px;
+    height: 524px;
+    background: white;
+    margin: 0 auto;
+}
+
+.main_p .left {
+    width: 465px;
+    height: 352px;
+    margin-top: 80px;
+    background: url(../images/tx.jpg);
+    float: left;
+}
+
+.main_p .right {
+    width: 415px;
+    height: 470px;
+    background: white;
+    float: right;
+    margin-top: 54px;
+}
+
+.main_p .right .R_top {
+    width: 415px;
+    height: 30px;
+    background: white;
+    line-height: 30px;
+    border-bottom: 2px solid #b81e20;
+    box-sizing: border-box;
+}
+
+.main_p .right .R_top .Left {
+    float: left;
+}
+
+.main_p .right .R_top .Left p {
+    font-size: 20px;
+    color: #aba2a2;
+}
+
+.main_p .right .R_top .Right {
+    float: right;
+}
+
+.main_p .right .R_top .Right p {
+    float: left;
+    font-size: 12px;
+}
+
+.main_p .right .R_top .Right a {
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: #b52024;
+}
+
+.main_p .right .R_bottom {
+    width: 415px;
+    height: 400px;
+    margin-top: 36px;
+}
+
+.main_p .right .R_bottom form {
+    width: 415px;
+    height: 400px;
+    background: white;
+    position: relative;
+}
+
+.main_p .right .R_bottom form input {
+    width: 412px;
+    height: 45px;
+    border: 1px solid #cbcbcb;
+    margin-bottom: 16px;
+}
+
+.main_p .right .R_bottom form .inp01 {
+    width: 260px;
+    float: left;
+}
+
+.main_p .right .R_bottom form span {
+    float: right;
+}
+
+.main_p .right .R_bottom form span img {
+    width: 145px;
+    height: 45px;
+    border: 1px solid #cbcbcb;
+}
+
+.main_p .right .R_bottom form #btn {
+    background: #9a9a9a;
+    width: 412px;
+    height: 45px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+.main_p .right .R_bottom form #btn:hover {
+    background: #cccccc;
+}
+
+.main_p .right .R_bottom form .name {
+    /* width: 260px; */
+    width: 260px;
+    float: left;
+}
+
+.main_p .right .R_bottom form .span01 {
+    width: 140px;
+    height: 45px;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #cbcbcb;
+    float: right;
+}
+
+.main_p .right .R_bottom form .span01 p {
+    font-size: 12px;
+    color: #b52024;
+    cursor: pointer;
+}
+
+.main_p .right .R_bottom form .hide {
+    width: 200px;
+    height: 100px;
+    background: beige;
+    position: absolute;
+    top: -121px;
+    right: 434px;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 100px;
+    display: none;
+}
+
+.main_p .right .R_bottom form .hide p {
+    font-size: 50px;
+    color: purple;
+}
+
+#middle_wrapper {
+    width: 100%;
+    height: 16px;
+    background: white;
+}
+
+.middle {
+    width: 1200px;
+    height: 16px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 16px;
+    color: #999999;
+}

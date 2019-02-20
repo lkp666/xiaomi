@@ -1,0 +1,98 @@
+
+
+.swiper-container{
+    width:1344px;
+    height:100%;
+}
+.swiper-wrapper{
+    padding-left: 70px;
+}
+.content{
+    width:1200px;
+    height:100%;
+    margin:auto;
+}
+/* 优选推荐 */
+#youxuan_warpper{
+    height: 100%;
+}
+.youxuan{
+    height: 100%;
+    position: relative;
+}
+.content{
+    width:1200px;
+    margin:0 auto;
+}
+.top{
+    height:510px;
+    margin-top: 60px;
+}
+
+.top dl{
+    float: left;
+}
+.top dl dd{
+    color: black;
+    height:68px;
+    border: 2px solid #eee;
+    box-sizing: border-box;
+    border-top: 0;
+    line-height: 68px;
+    padding:0 20px;
+}
+.top dl dd i{
+    color: red;
+    float: right;
+}
+.top .top_c{
+    margin:0 15px;
+}
+.top .top_b{
+    margin-top:10px;
+}
+.center{
+    height:510px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.center dl{
+    float: left;
+    }
+.center dl dd{
+        color: black;
+        height:68px;
+        border: 2px solid #eee;
+        box-sizing: border-box;
+        border-top: 0;
+        line-height: 68px;
+        padding:0 20px;
+    }
+    .bottom{
+        height:280px;
+        margin-top: 50px;
+        
+    }
+    .bottom ul{
+        display:flex;
+        justify-content: space-between;
+    }
+.bottom ul li{
+    float: left;
+}
+#position{
+    position:absolute;
+    top:-40px;
+    left:550px;
+}
+#footer_warpper{
+    height:100%;
+}
+.footer{
+    height:100px;
+    padding-top:40px;
+    background:black;
+    color:floralwhite;
+    text-align: center;
+}

@@ -1,0 +1,193 @@
+#header_warpper {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 400px;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+
+.top .top_l {
+    width: 187px;
+    height: 48px;
+}
+
+.top .top_l .img {
+    cursor: pointer;
+    width: 187px;
+    height: 48px;
+    background: url(../images/logo_new.jpg) no-repeat;
+    text-indent: -9999px;
+}
+
+.top .top_r {
+    height: 50px;
+    line-height: 50px;
+}
+
+.bottom {
+    height: 400px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.bottom .bottom_l {
+    width: 465px;
+    height: 352px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.bottom_r .bottom_r_t {
+    position: absolute;
+    left: 750px;
+    top: 70px;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_r .bottom_r_t p {
+    font-size: 12px;
+}
+
+.bottom_r .bottom_r_b {
+    position: absolute;
+    left: 750px;
+    top: 100px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* .bottom_r .bottom_r_b ul{
+    width:200px;
+    height:30px;
+} */
+
+.bottom_r .bottom_r_b ul li {
+    float: left;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+li:hover {
+    background: red;
+}
+
+.bottom_r .bottom_r_b ul li a {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.bottom_r .bottom_r_b .a {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+form {
+    width: 300px;
+    height: 300px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+p {
+    height: 30px;
+}
+
+.text-danger {
+    background: red;
+}
+
+.text-success {
+    background: blue;
+}
+
+form .btn {
+    width: 300px;
+    height: 30px;
+}
+
+.bottom_r .bottom_r_b .b {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+.p {
+    width: 200px;
+    height: 30px;
+}
+
+.btn1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 90px;
+    height: 35px;
+}
+
+.rg {
+    width: 140px;
+    height: 30px;
+    float: left;
+}
+
+form img {
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    right: 55px;
+    top: 65px;
+}
+
+i {
+    float: right;
+}
+
+.r {
+    margin-top: 35px;
+}
+
+
+/* .bottom_r .bottom_r_b .a input{
+    width:300px;
+    height:50px;
+    margin-bottom:10px;
+}
+.bottom_r .bottom_r_b .a a{
+    display: block;
+    height:50px;
+    width:300px;
+    background:red;
+    line-height:50px;
+    text-align: center;
+} */

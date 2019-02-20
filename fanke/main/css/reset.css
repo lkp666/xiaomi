@@ -1,0 +1,37 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+	margin:0;
+	padding:0;	
+}
+body,html{
+	font-size:16px, "微软雅黑",Arial;	
+	color:#878787;
+}
+li{
+	list-style:none;	
+}
+a{
+	text-decoration:none;
+	font-size:16px;
+	color:#000000;	
+}
+a:hover{
+	color:#0000FF;
+	text-decoration:none;	
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;
+	font-size:16px;	
+}
+input{
+	outline:none;	
+}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	overflow:hidden;
+	clear:both;	
+}
+i{
+	font-style: normal;
+}

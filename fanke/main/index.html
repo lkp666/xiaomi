@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+
+<body>
+
+
+    <!-- 自己做的 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper content">
+            <div class="swiper-slide"><img src="images/O-1.jpg" /></div>
+            <div class="swiper-slide"><img src="images/O-2.jpg" /></div>
+            <div class="swiper-slide"><img src="images/O-3.jpg" /></div>
+            <div class="swiper-slide"><img src="images/O-4.jpg" /></div>
+            <div class="swiper-slide"><img src="images/O-5.jpg" /></div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            loop: true, //无线循环效果
+            autoplay: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true, //点击页码圆点
+                // type: 'fraction',//页码类型
+            },
+        });
+    </script>
+    <div id="youxuan_warpper">
+        <div class="youxuan content">
+            <div id="position">下装推荐</div>
+            <div class="top">
+                <dl>
+                    <dt><a><img src="images/pc01.jpg" /></a></dt>
+                    <dd>4.0日式免烫衬衫<i>充值更优惠</i></dd>
+                </dl>
+                <dl class="top_c">
+                    <dt> <img src="images/pc02.jpg" /></dt>
+                    <dd>4.0日式免烫衬衫</dd>
+                    <dt class="top_b"><img src="images/290180.jpg" /></dt>
+                    <dd>4.0日式免烫衬衫</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/pc07.jpg" /></dt>
+                    <dd>4.0日式免烫衬衫</dd>
+                </dl>
+
+            </div>
+            <div class="center">
+                <dl>
+                    <dt><img src="images/pc01(2).jpg" alt=""></dt>
+                    <dd>休闲裤</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/pc01(2).jpg" alt=""></dt>
+                    <dd>休闲裤</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/pc01(2).jpg" alt=""></dt>
+                    <dd>休闲裤</dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/pc01(2).jpg" alt=""></dt>
+                    <dd>休闲裤</dd>
+                </dl>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li><img src="images/pc-fbx.jpg" /></li>
+                    <li><img src="images/pc-fbx.jpg" /></li>
+                    <li><img src="images/pc-fbx.jpg" /></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer_warpper">
+        <div class="footer content">
+            <p>发哦金佛俺家佛奥飞案件佛法啊风机房我偶尔加佛教佛啊拉法基of骄傲j 咔咔咔咔
+                <br />咔咔扩扩扩扩扩扩ao</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
