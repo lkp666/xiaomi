@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+#header_warpper{
+    width:100%;
+}
+.header{
+    width:1200px;
+    height:74px;
+    line-height: 74px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px solid #000;
+}
+.content{
+    margin:0 auto;
+}
+.left{
+    width:229px;
+    height:54px;
+    background:url(../images/logo_03.jpg) no-repeat;
+    text-indent: -9999px;
+}
+.right{
+    margin-right:100px;
+}
+.center{
+    position: absolute;
+    right:0;
+    top:0px;
+}
+#neum_warpper{
+    width:100%;
+}
+.neum{
+    width:1200px;
+    height:100%;
+   
+}
+.content{
+    margin:0 auto;
+}
+.neum .top{
+    height:50px;
+    line-height: 50px;
+    background:#eee;
+    margin-top:20px;
+}
+.neum .top li{
+    float: left;
+    
+    margin-right: 130px;
+}
+
+
+
+/* ----------------------------- */
+#main_warpper{
+    width:100%;
+}
+.main{
+    width:1200px;
+    background:#eee;
+}
+
+.content{
+    margin:0 auto;
+}
+.main span{
+    float: left;
+    margin-right:130px;
+}
+.shop_car{
+    width:100%;
+    height:100px;
+    line-height: 100px;
+    margin-top:20px;
+}
+.shop-count{
+    float: left;
+    width:60px;
+    height:30px;
+    margin-top:35px;
+}
+.shop-name{
+    margin-left: 50px;
+}
+.shop-size{
+    margin-left: 20px;
+}
+.shop-tip{
+    margin-left: 120px;
+}
+label{
+    color:red;
+    font-size: 18px;
+    line-height:35px;
+}
+.btn{
+    margin-left:20px;
+}

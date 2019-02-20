@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shop_car.css">
+</head>
+
+<body>
+    <div id="header_warpper">
+        <div class="header content">
+            <div class="left" title="凡客"></div>
+            <div class="right">您好！欢迎光临来到凡客。<a href="#">注册</a>|<a href="#">登录</a></div>
+            <div class="center"><a href="#">帮助中心</a></div>
+        </div>
+    </div>
+    <div id="neum_warpper">
+        <div class="neum content">
+            <ul class="top">
+                <li><input id="checkAll" type="checkbox" name="all">全选</li>
+                <li>商品名称</li>
+                <li>尺寸</li>
+                <li>单价</li>
+                <li>数量</li>
+                <li>小计</li>
+                <li>操作</li>
+            </ul>
+
+        </div>
+    </div>
+    <div id="main_warpper">
+        <div class="main content">
+            <!-- <div>
+              商品名称：<span class="shop-name">${item.name}</span><br/>
+              数量：<input type="number" class="shop-count" value="1">${item.count}<br/>
+              价格：<span class="shop-price">${item.price}</span><br/>
+              商品总价：<span class="shop-tip">${item.price*item.count}</span>
+              商品提示：<span class="shop-tip">${item.ps}</span>
+              <button class="btn shop-btn-del" >删除</button>
+            </div> -->
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/shop_car.js"></script>
+    <script>
+        $("input[name=all]").click(function () {
+                //$(this).prop("checked");
+                $("input[name=sl").prop("checked", $(this).prop("checked"));
+            });
+            $("input[name=sl").click(function () {
+                console.log(123456)
+                var flag = true;
+                $("input[name=sl]").each(function (index, item) {
+                    if ($(item).prop("checked") == false) {
+                        flag = false;
+                        return;
+                    }
+                });
+                if (flag) {
+                    $("input[name=all]").prop("checked", true);
+                } else {
+                    $("input[name=all]").prop("checked", false);
+                }
+            })
+    </script>
+</body>
+
+</html>
